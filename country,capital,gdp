@@ -1,0 +1,16 @@
+import java.util.*;
+public class Hello {
+
+    public static void main(String[] args) {
+		//Your Code Her
+		Scanner sc=new Scanner(System.in);
+		String country=sc.next();
+		String capital=sc.next();
+	float gdp=sc.nextFloat();
+	
+
+		System.out.print("The capital of"+" "+country+" "+"is"+" "+capital+" "+"and it's GDP is ");
+		System.out.printf("%.2f",gdp);
+
+	}
+} 
