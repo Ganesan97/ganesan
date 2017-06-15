@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int age;
+    float salary;
+    char name[20];
+    scanf("%s",name);
+    scanf("%d",&age);
+    scanf("%f",&salary);
+  
+    printf("%s\n",name);
+    printf("**\n");
+    printf("%d\n",age);
+    printf("**\n");
+    printf("%0.2f",salary);
+    
+    
+
+
+}
