@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int h,m;
+    scanf("%d%d",&h,&m);
+    int s=h*60*60;
+    int a=m*60;
+    int b=s+a;
+    printf("%d",b);
+    
+
+
+}
