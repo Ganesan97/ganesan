@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int m;
+    scanf("%d",&m);
+    for(int i=m;i>0;i--)
+    {
+        printf("%d \t",i);
+    }
+
+
+}
