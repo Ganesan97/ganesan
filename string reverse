@@ -1,0 +1,14 @@
+import java.util.*;
+public class Hello {
+
+    public static void main(String[] args) {
+		//Your Code Here
+		Scanner sc=new Scanner(System.in);
+		String s=sc.nextLine();
+		StringBuilder input =new StringBuilder();
+		input.append(s);
+		input = input.reverse();
+		System.out.print(input);
+
+	}
+}
